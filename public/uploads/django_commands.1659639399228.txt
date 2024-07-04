@@ -1,0 +1,31 @@
+
+
+
+
+pip install django
+pip install django --upgrade
+
+//starting virtual env
+pipenv shell
+
+//virtual env
+pipenv --venv
+
+
+// installing new project
+django-admin startproject myapp
+
+// Making new App
+python manage.py startapp myapp
+
+// Starting Server
+python manage.py runserver
+
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+python manage.py createsuperuser
+
+docker compose exec web python manage.py  startapp web/discount
